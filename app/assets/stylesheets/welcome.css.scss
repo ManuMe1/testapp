@@ -1,0 +1,168 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the Albums controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.float {
+  float: left;
+  }
+  
+.float p {
+   text-align: center;
+   }
+
+.bar
+{
+	
+  position: relative;
+  vertical-align: top;
+  height: 60px;
+  padding:13px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #656571;
+  border: 0;
+  cursor: pointer;
+  height:70px;
+  box-shadow: inset 0 -2px #e2b607;
+   margin-left: 14px; 
+   margin-right: 14px;
+}
+.current-text
+{
+ 	
+ 	color: rgb(255, 255, 255);
+	font-size: 20px;
+	text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, rgb(255, 0, 0) 0px -18px 40px;
+}
+
+.mobile
+{
+	
+	margin-bottom:150px;
+}
+
+.bar-sm
+{
+	
+	position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding:13px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #656571;
+  border: 0;
+  cursor: pointer;
+  height:70px;
+  box-shadow: inset 0 -2px #e2b607;
+
+
+}
+
+
+nav.share {display:inline-block;} /* shareable's nav tag */
+nav.share div {float:left;}
+nav.share iframe {border:0; margin-top:0; padding-top:0;} /* if using medium sized buttons */
+
+
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+#current-track-name{
+  font-size: 20px;
+  color: yellow;
+  background-color: #656571;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, rgb(255, 0, 0) 0px -18px 40px;
+}
+
+th
+{
+color:#FFCC00;
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+   
+}
+.carousel .item {
+    width: 100%;
+    height: 300px;
+    background-color: #FFE2AA;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 300px;
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slide {
+
+  float: left;
+  overflow: auto;
+
+}
+
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
